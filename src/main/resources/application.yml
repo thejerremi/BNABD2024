@@ -12,7 +12,8 @@ spring:
       hibernate:
         format_sql: true
     database: mysql
-
+server:
+  port: 8080 #musi byc 8080 zeby swagger dzialal
 application:
   security:
     jwt:
